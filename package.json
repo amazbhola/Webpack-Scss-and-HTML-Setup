@@ -1,0 +1,16 @@
+{
+  "name": "sass-with-webpack",
+  "version": "1.0.0",
+  "description": "How to install SASS/SCSS with webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "install-sass",
+    "install-scss",
+    "webpack"
+  ],
+  "author": "Md Fayezullah",
+  "license": "ISC"
+}
