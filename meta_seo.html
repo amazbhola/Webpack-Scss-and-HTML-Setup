@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meta_seo tutorial</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+            background-color: rgb(204, 202, 202);
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(12, 1ft);
+        }
+        .container header{
+            grid-column: span 12;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: cornflowerblue;
+            padding: 10px 0px;
+        }
+        .container header nav ul{
+            display: flex;
+            gap: 2em;
+            list-style: none;
+        }
+        .container header nav ul li a{
+            background-color: purple;
+            padding: 10px 20px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 1px #000;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.5em;
+        }
+        .container header nav ul li a:hover{
+            background-color: red;
+          
+        }
+        .container section:nth-child(2){
+            line-height: 2em;
+            font-size: 2em;
+            padding: 1em 2em;
+            grid-column: span 12;
+        }
+        .container section:nth-child(3){
+            line-height: 2em;
+            font-size: 2em;
+            padding: 1em 2em;
+            grid-column: span 12;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="" alt="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h1>At a glance Main topics discussed in this Video</h1>
+            <ol start="1" type="1">
+                <li>What is SEO and How Google Make site more SEO Friendly.</li>
+                <li>Learn All necessary SEO tags</li>
+                <li>See Real-Life Demo of a Proper SEO article</li>
+                <li>What is Web Accessibility and Why it is important</li>
+                <li>What is Semantic Element, Best practice to use semantic element in HTML</li>
+                <li>ARIA attribute in HTML</li>
+                <li>ARIA role, state, visibility properties</li>
+                <li>How Screen reader use any website using any Screen reader extension</li>
+                <li>Chrome LightHouse Audit</li>
+                <li>How to improve any website performance, SEO, Accessibility to next level.</li>
+                <li>And Many More.</li>
+            </ol>
+        </section>
+        <section>
+            <h1>Meta Tag Generator</h1>
+            <a href="https://devsenv.com/page/advanced-meta-tag-generator-social-facebook-twitter-all-meta-tags">Read Article</a></br>
+            <a href="https://github.com/ManiruzzamanAkash/MetaTagGenerator.git">Github Repository</a>
+        </section>
+        <section>4</section>
+        <section>5</section>
+    </div>
+        
+</body>
+</html>
