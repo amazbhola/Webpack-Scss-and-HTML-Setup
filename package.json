@@ -1,25 +1,24 @@
 {
   "name": "sass-with-webpack",
   "version": "1.0.0",
-  "description": "How to install SASS/SCSS with webpack",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack"
+    "build": "webpack"
   },
-  "keywords": [
-    "install-sass",
-    "install-scss",
-    "webpack"
-  ],
-  "author": "Md Fayezullah",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amazbhola/Webpack-Scss-and-HTML-Setup.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amazbhola/Webpack-Scss-and-HTML-Setup/issues"
+  },
+  "homepage": "https://github.com/amazbhola/Webpack-Scss-and-HTML-Setup#readme",
   "devDependencies": {
     "css-loader": "^6.7.1",
-    "mini-css-extract-plugin": "^2.6.0",
-    "node-sass": "^7.0.1",
-    "sass": "^1.49.9",
-    "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.70.0",
     "webpack-cli": "^4.9.2"
