@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \***************************/
 /***/ (() => {
 
-eval("throw new Error(\"Module parse failed: Unexpected token (1:2)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n> h1{\\n|     color: purple;\\n|     font-size: 5em;\");\n\n//# sourceURL=webpack://sass-with-webpack/./src/css/style.css?");
+eval("\n\n//# sourceURL=webpack://sass-with-webpack/./src/css/style.css?");
 
 /***/ }),
 
