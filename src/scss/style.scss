@@ -13,29 +13,34 @@
     font-family: Open Sans;
     text-transform: uppercase;
 }
+
 $secondary:#26292C;
 $primary:#FFFFFF;
-$primary-font:'Reey-Regular',sans-serif;
+$primary-font:'Reey-Regular',
+sans-serif;
 
-.h1-primary{
+.h1-primary {
     font-family: $primary-font;
     font-weight: 400;
     font-size: 6vw;
     text-transform: capitalize;
     text-align: center;
 }
-.h1-secondary{
+
+.h1-secondary {
     // font-family: $primary-font;
     font-weight: 400;
     font-size: 6vw;
     text-transform: capitalize;
     text-align: center;
 }
-h2{
+
+h2 {
     font-size: 3vw;
 }
-p{
-    font-size: 3.5vh;
+
+p {
+    font-size: 2.5vh;
 }
 
 body {
@@ -103,7 +108,7 @@ body {
                     }
 
                     h1 {
-                     text-align: left;
+                        text-align: left;
 
                     }
 
@@ -160,11 +165,11 @@ body {
             background: white;
             grid-column: span 12;
             text-align: center;
-            padding: 0px 20px;
+            padding: 10vh;
 
 
             >p {
-                
+
                 padding: 0 25%;
                 text-align: center;
             }
@@ -192,13 +197,13 @@ body {
                     h2 {
                         font-family: Open Sans;
                         font-weight: 600;
-                        
+
                         align-self: flex-start;
                         margin: 0;
                     }
 
                     p {
-                        
+
                         text-align: left;
                     }
                 }
@@ -224,11 +229,11 @@ body {
         section:nth-child(3) {
             background: $secondary;
             grid-column: span 12;
-            color: $primary ;
-            padding: 6em;
-            
-      
-           div:nth-child(2){
+            color: $primary;
+            padding: 10vh;
+
+
+            div:nth-child(2) {
                 display: flex;
                 gap: 3em;
             }
@@ -237,52 +242,57 @@ body {
         section:nth-child(4) {
             background: $primary;
             grid-column: span 12;
-            padding: 20px 20px;
-            .discount{
-                padding: 68px;
+            padding: 5em;
+
+            .discount {
+                padding: 0;
                 display: flex;
                 flex-direction: column;
-             
-                .discount-one{
+
+                .discount-one {
                     display: flex;
                     gap: 5em;
                     padding-bottom: 3em;
                     align-items: center;
                     justify-content: space-between;
-                    &:nth-child(1){
-                        
-                    }
-                    div{
+
+                    &:nth-child(1) {}
+
+                    div {
                         flex: 1;
                     }
-                    .content-discount{
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: space-around;
-                            align-items: flex-start;
-                        h2{
+
+                    .content-discount {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        align-items: flex-start;
+
+                        h2 {
                             font-family: Open Sans;
                             font-weight: 900;
-                            
+
                         }
-                        a.btn{
+
+                        a.btn {
                             background-color: $secondary;
                             color: $primary;
                             margin-top: 30px;
                         }
                     }
-                
-                    img{
+
+                    img {
                         width: 80%;
                         height: auto;
                         filter: drop-shadow(5px 10px 10px #222);
                     }
+
                     .images {
                         display: flex;
                         justify-content: center;
                     }
                 }
-             
+
             }
         }
 
@@ -293,40 +303,84 @@ body {
             background-repeat: no-repeat;
             color: $primary;
             display: flex;
+            padding: 1em;
             justify-content: center;
             flex-direction: column;
             align-items: center;
             text-align: center;
             position: relative;
-            height: 60em;            
-            .h1-primary{
+            height: 50em;
+
+            .h1-primary {
                 font-size: 3vw;
                 padding: 20px 0px;
             }
-            p{
-                padding: 5% 15%;
+
+            p {
+                padding: 2em 10em;
             }
-            .pitza{
+
+            .pitza {
                 content: "";
                 position: absolute;
-                
-                top: 250px;
-                img{
-                     width: 50%;
-                     height: auto;
-                     transform: rotate(130deg);
-                     
-                 }
+                top: 37%;
+                left: 13%;
+
+                img {
+                    width: 40%;
+                    height: auto;
+                    transform: rotate(127deg);
+
+
+                }
+                .img-one{
+                    position: absolute;
+                    width: 65%;
+                    top: 25%;
+                    left: 50%;
+                }
+                .img-two{
+                    width: 35%;
+                    height: auto;
+                    margin-top: 50%;
+                   
+                }
             }
-                
-                
-            
-         
+
+
+
+
         }
 
         section:nth-child(6) {
-            background: purple;
             grid-column: span 12;
+            padding: 10em 12em 1em 12em;
+            background-color: $primary;
+
+            .sort-content {
+                display: flex;
+                gap: 4em;
+                justify-content: space-around;
+                flex-flow: row wrap;
+
+                div {
+                    flex: 1;
+
+                    h1 {
+                        font-size: 3vw;
+                    }
+                }
+
+
+            }
+
+            .text-area {
+                text-align: center;
+                padding: 10em;
+
+                p {}
+            }
+
         }
 
         section:nth-child(7) {
@@ -341,16 +395,17 @@ body {
             text-align: center;
             padding: 50px 0px;
 
-          
+
 
             padding: 0 25%;
 
-          
+
 
             .subscription {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+
                 input {
                     position: relative;
                     padding: 2% 4%;
@@ -358,7 +413,8 @@ body {
                     font-size: 1.5em;
                     width: 70%;
                     outline: none;
-                    &:focus{
+
+                    &:focus {
                         outline: 1px red;
                     }
                 }
@@ -386,7 +442,9 @@ body {
 
 @media screen and (max-width:750px) {
     body {
-        
+        p{
+            font-size: 1.5em;
+        }
         .container {
             header {
                 nav {
@@ -419,49 +477,65 @@ body {
             }
 
         }
-        section:nth-child(2) div .content h2{
-            font-size: 5vw;
+
+        section:nth-child(2) div .content h2 {
+            font-size: 4vw;
         }
+
         section:nth-child(3) {
             padding: 3em;
-           div:nth-child(2){
+
+            div:nth-child(2) {
                 display: flex;
                 gap: 3em;
                 flex-flow: row wrap;
             }
         }
+
         section:nth-child(4) {
-            .discount{
+            padding: 0px;
+            .discount {
+                padding: 0px;
                 .discount-one {
                     flex-flow: column-reverse;
-                    h2{
-                        font-size: 6vh;
+
+                    h2 {
+                        font-size: 5vh;
                     }
                 }
-            } 
-          
+            }
+
         }
+
         section:nth-child(5) {
+            p{
+                padding: 4px !important;
+            }
             height: 50em !important;
-           .pitza{
-              
-               top: 0px !important;
-           }
+
+            .pitza {
+
+                top: 0px !important;
+            }
+        }
+        section:nth-child(6) {
+            p{
+                padding: 0;
+            }
+          
         }
 
         section:nth-child(8) {
-            .subscription{
-               input{
-                   
-                  
-               }
-               >a.btn{
-                position: inherit;
-                margin: 43px 0px;
-            }
+            .subscription {
+                input {}
+
+                >a.btn {
+                    position: inherit;
+                    margin: 43px 0px;
+                }
             }
         }
-  
+
     }
 
 }
