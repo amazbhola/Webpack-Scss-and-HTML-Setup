@@ -1,0 +1,64 @@
+section:nth-child(2) {
+    background: white;
+    grid-column: span 12;
+    text-align: center;
+    padding: 10vh;
+
+
+    >p {
+
+        padding: 0 25%;
+        text-align: center;
+    }
+
+    div {
+        display: flex;
+        gap: 6em;
+        flex-flow: row wrap;
+        flex-basis: 0;
+        justify-content: space-evenly;
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            padding: 0px 20px;
+
+            img {
+                width: 400px;
+                height: auto;
+                -webkit-filter: drop-shadow(5px 5px 5px #222);
+                filter: drop-shadow(5px 10px 10px #222);
+            }
+
+            h2 {
+                font-family: Open Sans;
+                font-weight: 600;
+
+                align-self: flex-start;
+                margin: 0;
+            }
+
+            p {
+
+                text-align: left;
+            }
+        }
+    }
+
+    .button2 {
+        padding: 40px 0px;
+
+        a.btn {
+
+            background-color: #343434;
+            color: white;
+            font-weight: 700;
+            font-size: 1.6vw;
+
+        }
+    }
+
+
+
+}

@@ -1,0 +1,12 @@
+section:nth-child(3) {
+    background: $secondary;
+    grid-column: span 12;
+    color: $primary;
+    padding: 10vh;
+
+
+    div:nth-child(2) {
+        display: flex;
+        gap: 3em;
+    }
+}

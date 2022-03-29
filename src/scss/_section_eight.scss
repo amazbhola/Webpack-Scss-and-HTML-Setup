@@ -1,0 +1,41 @@
+section:nth-child(8) {
+    background: #26292C;
+    grid-column: span 12;
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+
+
+
+    padding: 0 25%;
+
+
+
+    .subscription {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        input {
+            position: relative;
+            padding: 2% 4%;
+            border-radius: 50px;
+            font-size: 1.5em;
+            width: 70%;
+            outline: none;
+
+            &:focus {
+                outline: 1px red;
+            }
+        }
+
+        >a.btn {
+            background-color: #54524F;
+            color: white;
+            padding: 1% 4%;
+            border-radius: 50px;
+            position: absolute;
+            right: 26%;
+        }
+    }
+}

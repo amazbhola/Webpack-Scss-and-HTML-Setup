@@ -334,62 +334,61 @@ body .container footer:nth-child(9) {
   color: #848484;
   grid-column: span 12;
 }
-
 @media screen and (max-width: 750px) {
-  body p {
+  body body p {
     font-size: 1.5em;
   }
-  body .container header nav ul {
+  body body .container header nav ul {
     display: none;
   }
-  body .container header div.slider {
+  body body .container header div.slider {
     grid: inherit;
   }
-  body .container header div.slider .logo-right div:nth-child(1) {
+  body body .container header div.slider .logo-right div:nth-child(1) {
     width: 15%;
     height: auto;
     align-self: flex-end;
   }
-  body .container header div.slider .logo-right div:nth-child(2) {
+  body body .container header div.slider .logo-right div:nth-child(2) {
     width: 100%;
     height: auto;
   }
-  body section:nth-child(2) div .content h2 {
+  body body section:nth-child(2) div .content h2 {
     font-size: 4vw;
   }
-  body section:nth-child(3) {
+  body body section:nth-child(3) {
     padding: 3em;
   }
-  body section:nth-child(3) div:nth-child(2) {
+  body body section:nth-child(3) div:nth-child(2) {
     display: flex;
     gap: 3em;
     flex-flow: row wrap;
   }
-  body section:nth-child(4) {
+  body body section:nth-child(4) {
     padding: 0px;
   }
-  body section:nth-child(4) .discount {
+  body body section:nth-child(4) .discount {
     padding: 0px;
   }
-  body section:nth-child(4) .discount .discount-one {
+  body body section:nth-child(4) .discount .discount-one {
     flex-flow: column-reverse;
   }
-  body section:nth-child(4) .discount .discount-one h2 {
+  body body section:nth-child(4) .discount .discount-one h2 {
     font-size: 5vh;
   }
-  body section:nth-child(5) {
+  body body section:nth-child(5) {
     height: 50em !important;
   }
-  body section:nth-child(5) p {
+  body body section:nth-child(5) p {
     padding: 4px !important;
   }
-  body section:nth-child(5) .pitza {
+  body body section:nth-child(5) .pitza {
     top: 0px !important;
   }
-  body section:nth-child(6) p {
+  body body section:nth-child(6) p {
     padding: 0;
   }
-  body section:nth-child(8) .subscription > a.btn {
+  body body section:nth-child(8) .subscription > a.btn {
     position: inherit;
     margin: 43px 0px;
   }

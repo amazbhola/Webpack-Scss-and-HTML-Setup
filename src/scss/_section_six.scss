@@ -1,0 +1,30 @@
+section:nth-child(6) {
+    grid-column: span 12;
+    padding: 10em 12em 1em 12em;
+    background-color: $primary;
+
+    .sort-content {
+        display: flex;
+        gap: 4em;
+        justify-content: space-around;
+        flex-flow: row wrap;
+
+        div {
+            flex: 1;
+
+            h1 {
+                font-size: 3vw;
+            }
+        }
+
+
+    }
+
+    .text-area {
+        text-align: center;
+        padding: 10em;
+
+        p {}
+    }
+
+}

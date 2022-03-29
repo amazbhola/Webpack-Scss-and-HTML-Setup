@@ -1,0 +1,99 @@
+@media screen and (max-width:750px) {
+    body {
+        p{
+            font-size: 1.5em;
+        }
+        .container {
+            header {
+                nav {
+                    ul {
+                        display: none;
+                    }
+                }
+
+                div.slider {
+                    grid: inherit;
+
+                    .logo-left {}
+
+                    .logo-right {
+                        div:nth-child(1) {
+                            width: 15%;
+                            height: auto;
+                            align-self: flex-end;
+                        }
+
+                        div:nth-child(2) {
+                            width: 100%;
+                            height: auto;
+
+                        }
+                    }
+                }
+
+
+            }
+
+        }
+
+        section:nth-child(2) div .content h2 {
+            font-size: 4vw;
+        }
+
+        section:nth-child(3) {
+            padding: 3em;
+
+            div:nth-child(2) {
+                display: flex;
+                gap: 3em;
+                flex-flow: row wrap;
+            }
+        }
+
+        section:nth-child(4) {
+            padding: 0px;
+            .discount {
+                padding: 0px;
+                .discount-one {
+                    flex-flow: column-reverse;
+
+                    h2 {
+                        font-size: 5vh;
+                    }
+                }
+            }
+
+        }
+
+        section:nth-child(5) {
+            p{
+                padding: 4px !important;
+            }
+            height: 50em !important;
+
+            .pitza {
+
+                top: 0px !important;
+            }
+        }
+        section:nth-child(6) {
+            p{
+                padding: 0;
+            }
+          
+        }
+
+        section:nth-child(8) {
+            .subscription {
+                input {}
+
+                >a.btn {
+                    position: inherit;
+                    margin: 43px 0px;
+                }
+            }
+        }
+
+    }
+
+}

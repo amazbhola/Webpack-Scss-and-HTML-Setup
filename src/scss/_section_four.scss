@@ -1,0 +1,56 @@
+section:nth-child(4) {
+    background: $primary;
+    grid-column: span 12;
+    padding: 5em;
+
+    .discount {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+
+        .discount-one {
+            display: flex;
+            gap: 5em;
+            padding-bottom: 3em;
+            align-items: center;
+            justify-content: space-between;
+
+            &:nth-child(1) {}
+
+            div {
+                flex: 1;
+            }
+
+            .content-discount {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: flex-start;
+
+                h2 {
+                    font-family: Open Sans;
+                    font-weight: 900;
+
+                }
+
+                a.btn {
+                    background-color: $secondary;
+                    color: $primary;
+                    margin-top: 30px;
+                }
+            }
+
+            img {
+                width: 80%;
+                height: auto;
+                filter: drop-shadow(5px 10px 10px #222);
+            }
+
+            .images {
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+    }
+}
