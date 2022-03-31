@@ -1,6 +1,6 @@
 section:nth-child(6) {
     grid-column: span 12;
-    padding: 10em 12em 1em 12em;
+    padding: 8%;
     background-color: $primary;
 
     .sort-content {
@@ -22,7 +22,7 @@ section:nth-child(6) {
 
     .text-area {
         text-align: center;
-        padding: 10em;
+        padding: 3em;
 
         p {}
     }

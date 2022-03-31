@@ -3,51 +3,67 @@ section:nth-child(5) {
     background-image: url("/images/Header-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
-    color: $primary;
-    display: flex;
-    padding: 1em;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    height: 50em;
+    
+    .section-paiza {
+        display: flex;
+        justify-content: space-around;
+        padding: 40px;
+        flex-direction: column;
+        align-items: center;
+        color: $primary;
 
-    .h1-primary {
-        font-size: 3vw;
-        padding: 20px 0px;
-    }
+        div {
+            flex: 1;
+        }
 
-    p {
-        padding: 2em 10em;
-    }
-
-    .pitza {
-        content: "";
-        position: absolute;
-        top: 37%;
-        left: 13%;
-
-        img {
-            width: 40%;
-            height: auto;
-            transform: rotate(127deg);
-
+        .paiza-content {
+            
+            position: relative;
+            .leaf2{
+                position: absolute;
+                width: 100%;
+                left: 0;
+                top: -88%;
+                height: auto;
+            }
+         h1{
+             font-size: 4vw;
+         }
+         p{
+             padding: 0 24%;
+             text-align: center;
+         }
 
         }
-        .img-one{
-            position: absolute;
-            width: 65%;
-            top: 25%;
-            left: 50%;
-        }
-        .img-two{
-            width: 35%;
-            height: auto;
-            margin-top: 50%;
-           
+
+        .paiza-image {
+            position: relative;
+            display: flex;
+            justify-content: center;
+
+            :nth-child(1) {
+                width: 24%;
+                height: auto;
+                transform: rotate(123deg);
+                position: absolute;
+                left: 15%;
+                bottom: -6%;
+            }
+
+            :nth-child(2) {
+                width: 36%;
+                height: auto;
+                transform: rotate(123deg);
+            }
+
+            
         }
     }
+
+    
+
+   
+
 
 
 

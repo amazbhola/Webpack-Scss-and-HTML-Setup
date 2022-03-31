@@ -1,20 +1,17 @@
 header {
     grid-column: span 12;
-    display: flex;
-    justify-content: end;
-    flex-direction: column;
     background-image: url("/images/Header-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    flex-wrap: wrap;
-    gap: 4em;
 
     nav {
         display: flex;
         align-items: center;
-        align-self: end;
-        gap: 1em;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 20px;
 
         ul {
             display: flex;
@@ -30,74 +27,75 @@ header {
                 }
             }
         }
+        .search{
+            padding-right: 20px;
+            position: relative;
+            input{
+                padding: 10px 15px;
+                outline: none;
+                border-radius: 30px;
+                background-color: $primary;
+                border: 1px solid $primary;
+                &:focus{
+                    border: 1px solid purple;
+                }
+            }
+            .search-icon {
+                position: absolute;
+                right: 30px;
+                top: 7px;
+                color: $secondary;
+                font-size: 1.1em;
+            }
+
+        }
     }
 
-    div.slider {
-        display: grid;
-        gap: 1em;
-        grid-template-columns: 1fr 1fr;
-        flex-flow: row wrap;
-        padding: 0px 20px;
+    .slider {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+        gap: 2em;
+        div {
+            flex: 1;
+        }
 
         .logo-left {
-            padding: 50px;
+         padding-right: 1em;
+         h2{
+             padding-bottom: 25px;
+         }
+         p{
+            width: 450px;
+            padding-top: 50px;
+         }
 
-            img {
-                width: 12%;
-                height: auto;
 
-            }
-
-            h1 {
-                text-align: left;
-
-            }
-
-            h2 {
-                text-transform: uppercase;
-            }
-
-            .btn {
-                background: white;
-                color: #343434
-            }
         }
 
         .logo-right {
             position: relative;
-            display: flex;
-            flex-flow: row wrap;
 
-
-            div:nth-child(1) {
-                width: 10%;
+            :nth-child(1) {
+                width: 80%;
                 height: auto;
-                align-self: flex-end;
+            }
+
+            :nth-child(2) {
+                width: 36%;
+                height: auto;
                 position: absolute;
-                top: 69%;
-                left: -23%;
-                display: flex;
-
-                img {
-                    width: 320%;
-                    height: auto;
-                }
+                left: -25%;
+                top: 67%;
             }
 
-
-            div:nth-child(2) img {
-                max-width: 80%;
+            :nth-child(3) {
+                width: 54%;
                 height: auto;
-                align-self: flex-start;
+                position: absolute;
+                left: 0%;
+                top: 70%;
             }
-
-            // img:nth-child(3) {
-            //     // position: absolute;
-            //     width: 40%;
-            //     height: auto;
-            //     align-self: flex-end;
-            // }
-
         }
     }
 }
