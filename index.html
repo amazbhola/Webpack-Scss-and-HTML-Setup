@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Webpack App</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+</head>
+
+<body class="bg-gray-500">
+    <div class="">
+        <div
+            class="capitalize flex items-center justify-between py-2 px-4 shadow bg-gradient-to-t from-gray-900 via-gray-800 to-gray-900 text-gray-100 font-medium">
+            <div>
+                <h3 class="text-2xl">Logo</h3>
+            </div>
+            <div class="flex gap-2 text-xl">
+                <a class="rounded-sm shadow hover:bg-gray-500 p-2" href="">home</a>
+                <a class="rounded-sm shadow hover:bg-gray-500 p-2" href="">about</a>
+                <a class="rounded-sm shadow hover:bg-gray-500 p-2" href="">gallery</a>
+            </div>
+        </div>
+        <div class="grid grid-cols-12 gap-2 p-4 text-gray-100 text-lg">
+            <div class="col-span-9 bg-gray-800 p-2 rounded shadow">left slider</div>
+            <div id=""
+                class="col-span-3 row-span-3 bg-gray-800 p-2 rounded shadow w-full flex flex-wrap relative">
+              <div id="dataList" class="flex flex-col w-full">
+                <!-- <div id="mainmenu" class="p-1 rounded-sm block w-full hover:bg-gray-500">
+                    one
+                </div> -->
+                <!-- <div id="dropdown" class="hidden rounded-sm w-full bg-gray-700 transition">
+                    <div class="flex flex-col p-2 divide-y divide-gray-900 divide-dotted">
+                        <a class="hover:bg-gray-500 p-2" href="">dropdown one</a>
+                        <a class="hover:bg-gray-500 p-2" href="">dropdown one</a>
+                        <a class="hover:bg-gray-500 p-2" href="">dropdown one</a>
+                        <a class="hover:bg-gray-500 p-2" href="">dropdown one</a>
+                        <a class="hover:bg-gray-500 p-2" href="">dropdown one</a>
+                    </div>
+                </div> -->
+              </div>
+            </div>
+      
+        </div>
+    </div>
+
+    <script type="module" src="./src/data.js"></script>
+    <script src="./src/index.js"></script>
+</body>
+
+</html>
